@@ -5,6 +5,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+main{
+    margin: 130px 230px;
+}
+
 /* Nav relatate styles */
 
 nav{
@@ -100,23 +104,24 @@ margin-bottom: 20px;
 <!-- /* main relatate styles */
 
 .about-content{
-    margin: 130px 230px;
+   
     border-radius: 10px;
 background: #FFF8F3;
 padding: 130px 156px;
 }
-.about-heading{
+.section-heading{
     text-align: center;
 font-size: 35px;
 color: black;
 margin-bottom: 0;
 
 }
-.about-description{
+.section-description{
     font-size: 18px;
     color:  #757575;
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: center;
 }
 .about-info{
     display: flex;
@@ -133,5 +138,26 @@ margin-bottom: 0;
 .info{
     color: #474747;
     font-size: 20px;
+    
+}
+.what-i-do{
+    background-color: white;
+    padding:  130px 156px ;
+
+}
+.skill-container{
+    display: flex;
+}
+.skill > img{
+    width: 44px;
+height: 44px;
+}
+.skill-title{
+    font-size: 20px;
+    color: black;
+}
+.skill-description{
+    color:  #757575;
+font-size: 16px;
 }
 
