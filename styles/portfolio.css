@@ -97,5 +97,41 @@ margin-bottom: 20px;
     
 }
 
+<!-- /* main relatate styles */
 
+.about-content{
+    margin: 130px 230px;
+    border-radius: 10px;
+background: #FFF8F3;
+padding: 130px 156px;
+}
+.about-heading{
+    text-align: center;
+font-size: 35px;
+color: black;
+margin-bottom: 0;
+
+}
+.about-description{
+    font-size: 18px;
+    color:  #757575;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info >li{
+    list-style: none;
+}
+.info-title{
+   color: #757575;
+   font-size: 20px;
+   text-align: center;
+}
+.info{
+    color: #474747;
+    font-size: 20px;
+}
 
